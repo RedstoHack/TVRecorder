@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Dark" parent="android:Theme.Material.NoActionBar">
+        <item name="appBg">@color/dark_bg</item>
+        <item name="appSurface">@color/dark_surface</item>
+        <item name="appStroke">@color/dark_stroke</item>
+        <item name="appText">@color/dark_text</item>
+        <item name="appTextSecondary">@color/dark_text_secondary</item>
+        <item name="appAccent">@color/dark_accent</item>
+        <item name="android:windowBackground">@color/dark_bg</item>
+        <item name="android:colorAccent">@color/dark_accent</item>
+    </style>
+
+    <style name="AppTheme.Light" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="appBg">@color/light_bg</item>
+        <item name="appSurface">@color/light_surface</item>
+        <item name="appStroke">@color/light_stroke</item>
+        <item name="appText">@color/light_text</item>
+        <item name="appTextSecondary">@color/light_text_secondary</item>
+        <item name="appAccent">@color/light_accent</item>
+        <item name="android:windowBackground">@color/light_bg</item>
+        <item name="android:colorAccent">@color/light_accent</item>
+    </style>
+
+    <!-- Невидимый экран, который только показывает системный запрос на захват экрана. -->
+    <style name="AppTheme.Transparent" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="ButtonBase">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:paddingLeft">@dimen/button_padding_h</item>
+        <item name="android:paddingRight">@dimen/button_padding_h</item>
+        <item name="android:focusable">true</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="ButtonPrimary" parent="ButtonBase">
+        <item name="android:background">@drawable/bg_button_primary</item>
+        <item name="android:textColor">@color/on_accent</item>
+        <item name="android:drawableTint">@color/on_accent</item>
+    </style>
+
+    <style name="ButtonSecondary" parent="ButtonBase">
+        <item name="android:background">@drawable/bg_button_secondary</item>
+        <item name="android:textColor">?attr/appText</item>
+        <item name="android:drawableTint">?attr/appText</item>
+    </style>
+</resources>

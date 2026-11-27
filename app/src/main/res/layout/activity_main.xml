@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ScrollView: на низких экранах (телефон в альбомной ориентации) содержимое прокручивается. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/appBg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="0dp"
+        android:orientation="vertical"
+        android:padding="@dimen/main_padding">
+
+        <!-- Колонка шириной по самому широкому элементу, но не уже main_column_min_width.
+             Кнопки (match_parent) растягиваются до ширины колонки, но никогда не шире экрана. -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:minWidth="@dimen/main_column_min_width"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="?attr/appText"
+                android:textSize="@dimen/main_title_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="@dimen/main_padding"
+                android:gravity="center"
+                android:textColor="?attr/appTextSecondary"
+                android:textSize="@dimen/main_status_size" />
+
+            <Button
+                android:id="@+id/btn_record"
+                style="@style/ButtonPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:drawableStart="@drawable/ic_record"
+                android:text="@string/main_record" />
+
+            <Button
+                android:id="@+id/btn_pause"
+                style="@style/ButtonSecondary"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginTop="@dimen/button_gap"
+                android:drawableStart="@drawable/ic_pause"
+                android:text="@string/main_pause"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_settings"
+                style="@style/ButtonSecondary"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginTop="@dimen/button_gap"
+                android:drawableStart="@drawable/ic_settings"
+                android:text="@string/main_settings" />
+
+            <TextView
+                android:id="@+id/footer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/main_padding"
+                android:gravity="center"
+                android:textColor="?attr/appTextSecondary"
+                android:textSize="@dimen/main_footer_size" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

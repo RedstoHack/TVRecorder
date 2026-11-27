@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ТВ и планшеты: крупнее и с большими отступами, чтобы читалось с дивана. -->
+<resources>
+    <dimen name="main_padding">48dp</dimen>
+    <dimen name="main_column_min_width">420dp</dimen>
+    <dimen name="main_title_size">52sp</dimen>
+    <dimen name="main_status_size">22sp</dimen>
+    <dimen name="main_footer_size">16sp</dimen>
+
+    <dimen name="button_height">76dp</dimen>
+    <dimen name="button_text_size">24sp</dimen>
+    <dimen name="button_padding_h">32dp</dimen>
+    <dimen name="button_gap">16dp</dimen>
+
+    <dimen name="settings_padding_h">64dp</dimen>
+    <dimen name="settings_padding_top">32dp</dimen>
+    <dimen name="settings_title_size">36sp</dimen>
+    <dimen name="row_title_size">22sp</dimen>
+    <dimen name="row_value_size">18sp</dimen>
+    <dimen name="row_min_height">72dp</dimen>
+    <dimen name="row_padding_h">24dp</dimen>
+    <dimen name="row_gap">12dp</dimen>
+
+    <dimen name="picker_help_size">20sp</dimen>
+    <dimen name="picker_info_size">22sp</dimen>
+</resources>

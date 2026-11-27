@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- рамка экрана -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,36h40a4,4 0 0 1 4,4v24a4,4 0 0 1 -4,4H34a4,4 0 0 1 -4,-4V40a4,4 0 0 1 4,-4z" />
+    <!-- сам экран -->
+    <path
+        android:fillColor="#0E1116"
+        android:pathData="M33,39h42v26H33z" />
+    <!-- подставка -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,72h16v3H46z" />
+    <!-- красная точка записи -->
+    <path
+        android:fillColor="#E5484D"
+        android:pathData="M54,52m-7,0a7,7 0 1,0 14,0a7,7 0 1,0 -14,0" />
+</vector>

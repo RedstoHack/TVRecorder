@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Размеры по умолчанию: телефоны. Для ТВ и планшетов см. values-sw480dp. -->
+<resources>
+    <dimen name="main_padding">16dp</dimen>
+    <dimen name="main_column_min_width">280dp</dimen>
+    <dimen name="main_title_size">36sp</dimen>
+    <dimen name="main_status_size">18sp</dimen>
+    <dimen name="main_footer_size">13sp</dimen>
+
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="button_text_size">20sp</dimen>
+    <dimen name="button_padding_h">20dp</dimen>
+    <dimen name="button_gap">12dp</dimen>
+
+    <dimen name="settings_padding_h">16dp</dimen>
+    <dimen name="settings_padding_top">24dp</dimen>
+    <dimen name="settings_title_size">28sp</dimen>
+    <dimen name="row_title_size">18sp</dimen>
+    <dimen name="row_value_size">15sp</dimen>
+    <dimen name="row_min_height">64dp</dimen>
+    <dimen name="row_padding_h">18dp</dimen>
+    <dimen name="row_gap">10dp</dimen>
+
+    <dimen name="picker_help_size">13sp</dimen>
+    <dimen name="picker_info_size">15sp</dimen>
+</resources>

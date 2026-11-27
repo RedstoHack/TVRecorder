@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Тёмная тема -->
+    <color name="dark_bg">#0E1116</color>
+    <color name="dark_surface">#1A1F27</color>
+    <color name="dark_stroke">#2F3744</color>
+    <color name="dark_text">#F2F4F7</color>
+    <color name="dark_text_secondary">#9AA4B2</color>
+    <color name="dark_accent">#E5484D</color>
+
+    <!-- Светлая тема -->
+    <color name="light_bg">#F2F4F7</color>
+    <color name="light_surface">#FFFFFF</color>
+    <color name="light_stroke">#CBD2DC</color>
+    <color name="light_text">#12161C</color>
+    <color name="light_text_secondary">#566070</color>
+    <color name="light_accent">#D92D32</color>
+
+    <color name="on_accent">#FFFFFF</color>
+    <color name="ic_launcher_background">#1E2633</color>
+</resources>

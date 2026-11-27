@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Главный экран -->
+    <string name="main_record">Запись</string>
+    <string name="main_stop">Остановить запись</string>
+    <string name="main_settings">Настройки</string>
+    <string name="main_status_idle">Готово к записи</string>
+    <string name="main_status_recording">Идёт запись… %s</string>
+    <string name="main_status_saving">Сохранение файла…</string>
+    <string name="main_footer">Версия %1$s · %2$s</string>
+
+    <!-- Настройки -->
+    <string name="settings_title">Настройки</string>
+    <string name="set_language">Язык</string>
+    <string name="set_theme">Тема</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="theme_light">Светлая</string>
+    <string name="set_location">Место сохранения</string>
+    <string name="loc_download">Download (по умолчанию)</string>
+    <string name="loc_pick">Выбрать папку…</string>
+    <string name="set_fps">Частота кадров</string>
+    <string name="fps_value">%d кадров/с</string>
+    <string name="set_area">Область записи</string>
+    <string name="area_full">Весь экран</string>
+    <string name="area_zone">Выделенная зона</string>
+    <string name="set_zone_adjust">Настроить зону</string>
+    <string name="zone_summary">%1$d × %2$d px</string>
+    <string name="cancel">Отмена</string>
+
+    <!-- Выбор зоны -->
+    <string name="picker_help">Стрелки: перемещение / размер · OK: сменить режим · Назад: сохранить</string>
+    <string name="picker_help_touch">Тяните рамку, чтобы переместить · тяните за угол, чтобы изменить размер · Назад: сохранить</string>
+    <string name="picker_mode_move">Режим: перемещение</string>
+    <string name="picker_mode_resize">Режим: изменение размера</string>
+    <string name="picker_info">%1$s · зона %2$d × %3$d px</string>
+
+    <!-- Сообщения -->
+    <string name="toast_saved">Сохранено: %s</string>
+    <string name="toast_saved_fallback">Выбранная папка недоступна. Файл сохранён сюда: %s</string>
+    <string name="toast_empty">Ничего не записано, файл не сохранён</string>
+    <string name="toast_save_failed">Не удалось завершить запись: %s</string>
+    <string name="err_no_capture">Это устройство не поддерживает захват экрана</string>
+    <string name="err_start_failed">Не удалось начать запись: %s</string>
+    <string name="err_no_folder_picker">На этом устройстве нет выбора папки</string>
+
+    <!-- Уведомление -->
+    <string name="notif_channel">Запись экрана</string>
+    <string name="notif_title">TV Recorder записывает экран</string>
+    <string name="notif_text">Откройте приложение или нажмите «Стоп», чтобы завершить</string>
+    <string name="notif_stop">Стоп</string>
+
+    <!-- Пауза / плавающий таймер -->
+    <string name="main_pause">Пауза</string>
+    <string name="main_resume">Продолжить</string>
+    <string name="main_status_paused">Пауза · %s</string>
+    <string name="set_overlay">Плавающий значок</string>
+    <string name="overlay_on">Включён</string>
+    <string name="overlay_off">Выключен</string>
+    <string name="overlay_need_permission">Нужно разрешение «Поверх других окон»</string>
+    <string name="err_no_overlay">Это устройство не поддерживает плавающие окна</string>
+    <string name="err_overlay_denied">Разрешение не выдано, плавающий значок остаётся выключенным</string>
+    <string name="notif_pause">Пауза</string>
+    <string name="notif_resume">Продолжить</string>
+    <string name="notif_title_paused">TV Recorder: запись на паузе</string>
+    <string name="bubble_idle">Готов</string>
+    <string name="bubble_saving">Сохранение…</string>
+    <string name="bubble_close">Скрыть значок</string>
+    <string name="bubble_channel">Плавающий значок</string>
+    <string name="bubble_notif_title">TV Recorder готов к записи</string>
+    <string name="bubble_notif_text">Нажмите на значок на экране, чтобы начать запись</string>
+    <string name="bubble_notif_close">Скрыть</string>
+</resources>
